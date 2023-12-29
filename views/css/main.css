@@ -1,0 +1,59 @@
+/*body,
+ table,
+    thead,
+    tr,
+    tbody,
+    th,
+    td {
+        text-align: center;
+    }*/
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+p{
+	margin-top: 20px;
+	font-size: 30px;
+}
+input{
+	text-align: center;
+}
+.mssg{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 5px;
+}
+#profile table{
+    /* display: flex; */
+
+    border-radius: 10px;
+    background-color:aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+
+}
+#profile a{
+    /* display:flex; */
+    /* align-items: center; */
+    /* width: 50%; */
+    color: black;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+}
+#reg input,#log input,#fuck input{
+    border-radius: 10px;
+    background-color:aliceblue;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* color: black; */
+}
